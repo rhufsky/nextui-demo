@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@nextui-org/date-picker": "^2.2.0-beta.4",
-    "@nextui-org/input": "^2.3.0-beta.4",
-    "@nextui-org/react": "^2.5.0-beta.8",
+    "@nextui-org/input": "^2.3.0-beta.6",
+    "@nextui-org/system": "^2.3.0-beta.4",
+    "@nextui-org/theme": "^2.3.0-beta.6",
     "framer-motion": "^11.11.15",
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
