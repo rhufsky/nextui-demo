@@ -9,8 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@nextui-org/popover": "^2.1.29",
-    "@nextui-org/react": "^2.5.0-beta.11",
+    "@nextui-org/react": "^2.5.0-beta.16",
     "framer-motion": "^11.11.17",
     "next": "15.0.3",
     "react": "19.0.0-rc-fb9a90fa48-20240614",
@@ -19,12 +18,12 @@
   },
   "devDependencies": {
     "typescript": "^5.6.3",
-    "@types/node": "^20.17.6",
+    "@types/node": "^22.9.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.15",
-    "eslint": "^8.57.1",
+    "eslint": "^9.15.0",
     "eslint-config-next": "15.0.3"
   }
 }
