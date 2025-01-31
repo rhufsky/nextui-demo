@@ -1,6 +1,6 @@
 "use client";
 
-import { NextUIProvider } from "@nextui-org/system";
+import { HeroUIProvider } from "@heroui/system";
 import { I18nProvider } from "react-aria";
 
 /**
@@ -21,8 +21,8 @@ export default function Providers({
   children: React.ReactNode;
 }): React.ReactNode {
   return (
-    <NextUIProvider>
+    <HeroUIProvider>
       <I18nProvider locale="de-DE">{children}</I18nProvider>
-    </NextUIProvider>
+    </HeroUIProvider>
   );
 }

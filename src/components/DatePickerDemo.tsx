@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
-import { CalendarDate } from "@nextui-org/react";
-import { Button } from "@nextui-org/button";
-import { DatePicker } from "@nextui-org/date-picker";
-import { Card, CardHeader, CardBody, CardFooter } from "@nextui-org/card";
+import { CalendarDate } from "@heroui/react";
+import { Button } from "@heroui/button";
+import { DatePicker } from "@heroui/date-picker";
+import { Card, CardHeader, CardBody, CardFooter } from "@heroui/card";
 
 const DatePickerDemo: React.FC = () => {
   const [selectedDate, setSelectedDate] = React.useState<CalendarDate | null>(
